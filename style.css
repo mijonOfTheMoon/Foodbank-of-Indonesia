@@ -4,10 +4,14 @@
     font-size: large;
 }
 
-.nav-link {
-    color: red;
+body {
+    background-color: #FDF6E5 !important;
 }
 
 .vr {
-    margin: 0 10px;
+    margin: 0 1rem;
+}
+
+a.nav-link {
+    color: #486284;
 }
