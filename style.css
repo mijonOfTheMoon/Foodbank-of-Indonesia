@@ -1,0 +1,13 @@
+* {
+    font-family: Plus Jakarta Sans;
+    font-weight: 650;
+    font-size: large;
+}
+
+.nav-link {
+    color: red;
+}
+
+.vr {
+    margin: 0 10px;
+}
