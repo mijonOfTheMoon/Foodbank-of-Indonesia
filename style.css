@@ -79,4 +79,7 @@ a.nav-link {
     .navbar-brand {
         max-width: 1rem;
     }
+    a.nav-link:focus {
+        color: #949494 !important;
+    }
 }
