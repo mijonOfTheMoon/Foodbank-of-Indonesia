@@ -90,4 +90,7 @@ body {
     footer {
         text-align: center !important;
     }
+    footer a {
+        font-size: 80% !important;
+    }
 }
