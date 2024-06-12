@@ -1,7 +1,6 @@
 * {
     font-family: Plus Jakarta Sans;
     font-weight: 650;
-    font-size: large;
 }
 
 body {
@@ -14,4 +13,70 @@ body {
 
 a.nav-link {
     color: #486284;
+}
+
+.navbar-collapse {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-sm {
+    width: max-content;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    background-color: #D9D9D9;
+    transition: box-shadow 0.25s;
+}
+
+.search-sm:focus-within {
+    box-shadow: 0 0 0 0.1rem #486284;
+}
+
+.search-sm-input {
+    font-size: small;
+    color: black;
+    margin-left: 0.2rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.search-sm-input::placeholder {
+    color: #486284;
+}
+
+.search-icon {
+    width: 1rem;
+    margin-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+
+    .container-fluid {
+        justify-content: space-around !important;
+        padding: 0 !important;
+    }
+
+    .navbar-expand-lg {
+        padding: 0 !important;
+    }
+    .navbar-nav {
+        background-color: #692222;
+        width: 100%;
+    }
+    .navbar-collapse {
+        font-size: 0.5rem;
+    }
+    a.nav-link {
+        color: white;
+    }
+    .vr {
+        color: white;
+    }
+    .navbar-brand {
+        max-width: 1rem;
+    }
 }
