@@ -11,7 +11,7 @@ body {
     margin: 0 0.5rem;
 }
 
-a.nav-link {
+.navbarlink {
     color: #486284;
     font-size: 0.95rem;
 }
@@ -72,9 +72,10 @@ a.nav-link {
     .navbar-collapse {
         font-size: 0.5rem;
     }
-    a.nav-link {
-        color: white;
+    .navbarlink {
+        color: white !important;
         font-weight: normal;
+        font-size: 0.55rem;
     }
     .vr {
         color: white;
@@ -85,5 +86,8 @@ a.nav-link {
     }
     a.nav-link:focus {
         color: #949494 !important;
+    }
+    footer {
+        text-align: center !important;
     }
 }
