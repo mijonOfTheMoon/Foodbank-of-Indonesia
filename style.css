@@ -56,7 +56,7 @@ a.nav-link {
 @media (max-width: 768px) {
 
     .container-fluid {
-        justify-content: space-between !important;
+        justify-content: space-around !important;
         padding: 0 !important;
     }
 
