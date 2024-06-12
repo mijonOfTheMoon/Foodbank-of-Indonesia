@@ -75,12 +75,12 @@ body {
     .navbarlink {
         color: white !important;
         font-weight: normal;
-        font-size: 0.6rem !important;
+        font-size: 0.7rem !important;
         text-align: center;
     }
     .vr {
         color: white;
-        margin: 0 0.6rem;
+        margin: 0 0.8rem;
     }
     .navbar-brand {
         max-width: 1rem;
