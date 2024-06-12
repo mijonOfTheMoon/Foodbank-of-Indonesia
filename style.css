@@ -75,7 +75,8 @@ body {
     .navbarlink {
         color: white !important;
         font-weight: normal;
-        font-size: 0.575rem !important;
+        font-size: 0.525rem !important;
+        text-align: center;
     }
     .vr {
         color: white;
