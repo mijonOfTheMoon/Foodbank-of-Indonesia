@@ -36,7 +36,7 @@ a.nav-link {
 }
 
 .search-sm-input {
-    font-size: small;
+    font-size: 0.6rem;
     color: black;
     margin-left: 0.2rem;
     outline: none;
@@ -49,7 +49,7 @@ a.nav-link {
 }
 
 .search-icon {
-    width: 1rem;
+    width: 0.8rem;
     margin-left: 0.5rem;
 }
 
@@ -76,7 +76,7 @@ a.nav-link {
     .vr {
         color: white;
     }
-    .navbar-brand {
-        max-width: 1rem;
+    .navbar-brand img {
+        max-width: 5rem;
     }
 }
