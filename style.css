@@ -8,12 +8,14 @@ body {
 }
 
 .vr {
-    margin: 0 1rem;
+    margin: 0 0.5rem;
 }
 
 a.nav-link {
     color: #486284;
+    font-size: 0.95rem;
 }
+
 
 .navbar-collapse {
     display: flex;
@@ -72,9 +74,11 @@ a.nav-link {
     }
     a.nav-link {
         color: white;
+        font-weight: normal;
     }
     .vr {
         color: white;
+        margin: 0 1rem;
     }
     .navbar-brand {
         max-width: 1rem;
