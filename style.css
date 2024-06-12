@@ -75,7 +75,7 @@ body {
     .navbarlink {
         color: white !important;
         font-weight: normal;
-        font-size: 0.6rem !important;
+        font-size: 1rem !important;
     }
     .vr {
         color: white;
@@ -92,5 +92,10 @@ body {
     }
     footer a {
         font-size: 80% !important;
+    }
+    .copyright {
+        font-size: 90% !important;
+        padding: 0;
+        margin: 0 0 0.5rem 0 ;
     }
 }
