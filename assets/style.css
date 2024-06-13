@@ -129,6 +129,17 @@ body {
     border-radius: 12rem 2rem 2rem 2rem !important;
 }
 
+.form-control {
+    background-color: #F1C550 !important;
+    border-color: black !important;
+    border-width: 0.15rem !important;
+}
+
+.form-control::placeholder {
+    color: black !important;
+    font-weight: 500;
+}
+
 @media (max-width: 768px) {
 
     .container-fluid {
