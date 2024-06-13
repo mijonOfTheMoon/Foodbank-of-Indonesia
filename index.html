@@ -234,16 +234,20 @@
                 <h2 class="fw-bold mb-4">Become A Volunteer</h2>
                 <form>
                     <div class="mb-3">
-                        <input type="text" class="form-control p-2 mb-4" id="fullName" placeholder="Nama" required>
+                        <input type="text" class="form-control p-2 mb-4" id="fullName" placeholder="Nama Lengkap"
+                            required>
                     </div>
                     <div class="mb-3">
-                        <input type="email" class="form-control p-2 mb-4" id="email" placeholder="Nama" required>
+                        <input type="email" class="form-control p-2 mb-4" id="email" placeholder="Alamat Email"
+                            required>
                     </div>
                     <div class="mb-3">
-                        <input type="text" class="form-control p-2 mb-4" id="phone" placeholder="Nama" required>
+                        <input type="text" class="form-control p-2 mb-4" id="phone" placeholder="Nomor Telepon"
+                            required>
                     </div>
                     <div class="mb-3">
-                        <textarea class="form-control p-2 mb-3" style="height: 12.5rem;" id="message" rows="4" placeholder="Nama" required></textarea>
+                        <textarea class="form-control p-2 mb-3" style="height: 12.5rem;" id="message" rows="4"
+                            placeholder="Pesan" required></textarea>
                     </div>
                     <div class="d-flex justify-content-center justify-content-md-start">
                         <button style="background-color: #38451F; color: white;" href="#" class="btn rounded-3 mt-3"
@@ -254,6 +258,117 @@
             <div class="col-md-1"></div>
         </div>
     </section>
+
+    <section id="carousel" class="carousel carousel-dark slide py-5 my-5">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner mb-5">
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-evenly">
+                    <img src="assets/img/jne.png" alt="JNE">
+                    <img class="d-none d-md-block" src="assets/img/superindo.png" alt="Superindo">
+                    <img class="d-none d-md-block" src="assets/img/esri.png" alt="Esri">
+                    <img class="d-none d-md-block" src="assets/img/nestle.png" alt="Nestle">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-evenly">
+                    <img class="d-none d-md-block" src="assets/img/jne.png" alt="JNE">
+                    <img src="assets/img/superindo.png" alt="Superindo">
+                    <img class="d-none d-md-block" src="assets/img/esri.png" alt="Esri">
+                    <img class="d-none d-md-block" src="assets/img/nestle.png" alt="Nestle">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-evenly">
+                    <img class="d-none d-md-block" src="assets/img/jne.png" alt="JNE">
+                    <img class="d-none d-md-block" src="assets/img/superindo.png" alt="Superindo">
+                    <img src="assets/img/esri.png" alt="Esri">
+                    <img class="d-none d-md-block" src="assets/img/nestle.png" alt="Nestle">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-evenly">
+                    <img class="d-none d-md-block" src="assets/img/jne.png" alt="JNE">
+                    <img class="d-none d-md-block" src="assets/img/superindo.png" alt="Superindo">
+                    <img class="d-none d-md-block" src="assets/img/esri.png" alt="Esri">
+                    <img src="assets/img/nestle.png" alt="Nestle">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev carousel" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next carousel" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+
+    <div class="container faq-section py-5">
+        <div class="row d-flex justify-content-around">
+            <div class="col-md-6">
+                <img src="assets/img/peta.png" alt="Map of Indonesia" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2>FAQs</h2>
+                <p>Foodbank of Indonesia is a social organization that exists to help overcome food gaps in society</p>
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Are there career opportunities?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What should I do after filling out the volunteer form?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                How do you want to donate food or goods?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="container-fluid pt-2" style="background-color: #F1C550;">
         <div class="row ps-5 pe-5 row-cols-1 row-cols-sm-2 row-cols-md-5 pt-4">
