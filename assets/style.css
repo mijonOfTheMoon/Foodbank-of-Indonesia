@@ -32,6 +32,17 @@ body {
     left: auto !important;
     right: auto !important;
     width: 0rem !important;
+    animation: .5s slideup !important;
+}
+
+@keyframes slideup {
+    from {
+        transform: translateY(5%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
 }
 
 .dropdown-item:focus {
