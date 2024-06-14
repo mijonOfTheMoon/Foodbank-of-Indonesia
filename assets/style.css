@@ -83,6 +83,17 @@ body {
     background-position: center;
 }
 
+.card-campaign {
+    border: 0.4rem solid #C23D2A;
+    background-color: #FFEAE9;
+    padding: 2rem;
+}
+
+.card-campaign img {
+    height: 16rem;
+    object-fit: cover;
+}
+
 .section-nasabah {
     background-image: url(./img/nasabah.png);
     background-size: cover;
