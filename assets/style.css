@@ -17,7 +17,7 @@ body {
 }
 
 .navbarlink:hover {
-    filter: brightness(0.3);
+    filter: brightness(0.3) !important;
 }
 
 .active {
@@ -51,6 +51,18 @@ body {
 
 .dropdown-item::selection {
     background-color: #F1C550 !important;
+}
+
+.section-about {
+    background-image: url(./img/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-nasabah {
+    background-image: url(./img/nasabah.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .dropdown-item:active {
@@ -91,6 +103,12 @@ body {
     box-shadow: 0 0 0 0.1rem #486284;
 }
 
+.whline {
+    background-color: white;
+    width: 20rem;
+    height: 0.4rem;
+}
+
 .search-sm-input {
     font-size: small;
     color: black;
@@ -123,15 +141,15 @@ body {
     background-color: transparent !important;
     padding: 0.5rem 1.5rem !important;
     border-radius: 10rem !important;
-    margin-top: 0.8rem !important; 
+    margin-top: 0.8rem !important;
 }
 
 .butonanim {
-    animation: 0.5s smaller;    
+    animation: 0.5s smaller;
 }
 
 .butonanim:hover {
-    box-shadow: 0 0 20px rgba(33,33,33,.2);
+    box-shadow: 0 0 20px rgba(33, 33, 33, .2);
     transform: scale(1.05);
     animation: 0.5s bigger;
 }
@@ -139,7 +157,9 @@ body {
 @keyframes bigger {
     from {
         transform: scale(1);
-    } to {
+    }
+
+    to {
         transform: scale(1.05);
     }
 }
@@ -147,7 +167,9 @@ body {
 @keyframes smaller {
     from {
         transform: scale(1.05);
-    } to {
+    }
+
+    to {
         transform: scale(1);
     }
 }
@@ -225,6 +247,11 @@ body {
 
 @media (max-width: 768px) {
 
+
+    .whline {
+        width: 10rem;
+    }
+
     .container-fluid {
         justify-content: space-between !important;
         padding: 0 !important;
@@ -251,7 +278,7 @@ body {
     }
 
     .navbarlink:focus {
-        filter: brightness(1.2);
+        filter: brightness(1.2) !important;
     }
 
     .vr {

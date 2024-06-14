@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodbank of Indonesia</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #F1C550">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-4" href="./index.html">
+                <img src="assets/img/logo.png" alt="Logo foodbank of indonesia" />
+            </a>
+
+            <form class="search-sm d-block d-md-none me-4">
+                <img class="search-icon" src="assets/img/search.png" alt="search button">
+                <input class="search-sm-input" type="search" placeholder="Search">
+            </form>
+
+            <div class="navigation">
+                <div class="navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <a class="nav-link navbarlink d-none d-md-block" aria-current="page" href="./index.html">Home</a>
+                    <div class="vr ms-0 ms-md-4" style="height: 2.25rem"></div>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link navbarlink active" href="#" id="navbarDropdown2" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Who Are We</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <li><a class="dropdown-item" href="./about.html">About FOI</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./index.html">Climate Change</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./partner.html">Partners</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./report.html">Annual Report</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./index.html">Award</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./career.html">Career</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="vr" style="height: 2.25rem"></div>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link navbarlink" href="#" id="navbarDropdown3" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">What We Do</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            <li><a class="dropdown-item" href="./program.html">Program</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./campaign.html">Campaign</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./index.html">Study</a></li>
+                        </ul>
+                    </div>
+                    <div class="vr" style="height: 2.25rem"></div>
+                    <a class="nav-link navbarlink" href="./index.html">News</a>
+                    <div class="vr" style="height: 2.25rem"></div>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link navbarlink" href="#" id="navbarDropdown5" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Moving Together</a>
+                        <ul class="dropdown-menu moving-dropdown" aria-labelledby="navbarDropdown5">
+                            <li><a class="dropdown-item" href="./index.html#join-us">Voulenteer</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./donation.html">Natura Donation</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./index.html#join-us">Help People</a></li>
+                        </ul>
+                    </div>
+                    <div class="vr" style="height: 2.25rem"></div>
+                    <a class="nav-link navbarlink" href="./donation.html">Donation</a>
+                    <div class="vr me-0 me-md-4" style="height: 2.25rem"></div>
+                    <div class="collapse collapse-horizontal" id="collapse">
+                        <div class="card card-body d-flex justify-content-center p-0"
+                            style="width: 15rem; height: 2.25rem">
+                            <form role="search">
+                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            </form>
+                        </div>
+                    </div>
+
+                    <button class="btn me-lg-4 d-none d-md-block" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">
+                        <img src="assets/img/search.png" alt="go search" style="max-width: 1.25rem;">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid text-center pt-3 p-md-5" style="background-color: white;">
+        <h2 class="display-4 fw-bold my-3 my-md-5 pb-0 pb-md-5">ABOUT FOI</h2>
+        <div class="row my-5">
+            <div class="col-md-4 mb-5 mb-md-0">
+                <h3 class="display-5 fw-bold">16.2 JUTA</h3>
+                <p>Penduduk Kelaparan</p>
+                <small>(FAO, 2022)</small>
+            </div>
+            <div class="col-md-4 mb-5 mb-md-0">
+                <h3 class="display-5 fw-bold">21.6%</h3>
+                <p>Anak Stunting</p>
+                <small>(Survei Status Gizi Balita Indonesia, 2022)</small>
+            </div>
+            <div class="col-md-4 mb-5 mb-md-0">
+                <h3 class="display-5 fw-bold">27%</h3>
+                <p>Anak pergi ke sekolah belum sarapan dan lapar</p>
+                <small>(Indeks Kelaparan Global, 2020)</small>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid text-center">
+        <div class="row align-items-center justify-content-evenly">
+            <div class="col-md-5">
+                <h3 class="display-5 fw-bold">8.03 JUTA</h3>
+                <p class="fw-bold fs-5">Metrik ton makanan terbuang</p>
+                <small>Berdasarkan Sistem Informasi Pengelolaan Sampah Nasional (SIPSN), diketahui bahwa
+                    pada tahun 2021, sebesar 8,03 juta ton makanan terbuang ke tempat sampah yang berdampak pada
+                    percepatan panas bumi dan hilangnya kesempatan
+                    bagi 61-125 juta orang untuk mendapatkan akses pada pangan</small>
+            </div>
+            <div class="col-md-5 p-md-5">
+                <img class="p-5 img-fluid" style="border-radius: 4rem;" src="assets/img/trash.png" alt="buang sampah">
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid text-center section-about">
+        <div class="p-5" style="background-color: rgba(0, 0, 0, 0.3);">
+            <div class="row align-items-center justify-content-evenly">
+                <div class="col-md-5">
+                    <h3 class="display-5 fw-bold text-white">Tentang FOI</h3>
+                    <div class="mx-auto rounded-4 mt-3 mb-4 whline">
+                    </div>
+                    <p class="col-8 mx-auto text-white">Foodbank of Indonesia merupakan organisasi sosial yang hadir
+                        untuk
+                        membantu
+                        mengatasi kesenjangan pangan di masyarakat </p>
+                </div>
+                <div class="col-md-5 p-5 text-white">
+                    <p>Dalam praktiknya, FOI menjadi jembatan antara masyarakat yang berlebihan makanan dengan
+                        masyarakat
+                        yang membutuhkan.
+                        Seperti yang tertera pada Pembukaan UUD 1945 alinea 1 dan 2 bahwa bangsa yang merdeka adalah
+                        mereka
+                        yang berdaulat atas
+                        pangannya sendiri dan mampu mengatur untuk membentuk impian masyarakat yang adil dan sejahtera.
+                        FOI
+                        juga mendukung
+                        negara dalam mencapai kedaulatan pangan seperti yang ditargetkan oleh SDG’s (Sustainable
+                        Development
+                        Goals) nomor 2
+                        yaitu untuk mengakhiri kelaparan, mencapai ketahanan pangan, memperbaiki nutrisi dan
+                        mempromosikan
+                        pertanian yang
+                        berkelanjutan. Selain itu, pada SDG’s nomor 12 yaitu pola produksi dan konsumsi yang bertanggung
+                        jawab.
+                    </p>
+                    <br>
+                    <p>
+                        Selama pandemi Covid-19 ini, kami tetap menjalankan operasi bersama staf dan relawan kami
+                        melayani
+                        kaum yang rentan
+                        sebaik mungkin setiap hari dan terutama selama krisis ini. Sembari perkembangan-perkembangan
+                        terbaru
+                        muncul, kami akan
+                        terus memantau situasi dan bertindak sesuai dengan petunjuk dan panduan respon terhadap
+                        Covid-19.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid text-center px-5 p-md-5" style="background-color: #F1C550;">
+        <div class="row align-items-center justify-content-evenly py-3">
+            <div class="col-md-4 p-3 p-md-5">
+                <h3 class="display-5 fw-bold">Vission</h3>
+                <p>Help to develop food security in Indonesia through a fairer distribution of food access, protecting
+                    food sources and
+                    achieving food security for all people.</p>
+            </div>
+            <div class="col-md-4 p-3 p-md-5">
+                <h3 class="display-5 fw-bold">Mission</h3>
+                <p>Creating fairer food access for all people, especially for the poor and battling poor childhood
+                    nutrition, and helping
+                    to increase the productivity of female farmers and fisher people.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container text-center p-5">
+        <div class="row align-items-center justify-content-evenly">
+            <div class="col-12 my-3 my-md-4">
+                <h3 class="fw-bold display-5">UN SDGS GOAL 2: ZERO HUNGER</h3>
+                <img class="img-fluid rounded-4 my-5" src="assets/img/goal.png" alt="SDGS goal">
+                <h3 class="fw-bold display-5">HOW FOI WORK?</h3>
+                <img class="img-fluid rounded-4 mt-5" src="assets/img/work.png" alt="SDGS goal">
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid p-5" style="background-color: white;">
+        <h3 class="fw-bold display-5 text-center mt-3 mb-5">JANGKAUAN FOI</h3>
+        <div class="row justify-content-md-evenly mb-3 py-2 px-5">
+            <div class="col-6 col-md-2 my-0 py-0">
+                <ul class="my-0 py-0">
+                    <li>JABODETABEK</li>
+                    <li>Ambon</li>
+                    <li>Pandeglang</li>
+                    <li>Cirebon</li>
+                    <li>Bali</li>
+                    <li>Kota Bandung</li>
+                    <li>Lembang</li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-2 my-0 py-0">
+                <ul class="my-0 py-0">
+                    <li>Cilincing</li>
+                    <li>Yogya</li>
+                    <li>Semarang</li>
+                    <li>Surabaya</li>
+                    <li>Lombok</li>
+                    <li>Makassar</li>
+                    <li>Sidoarjo</li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-2 my-0 py-0">
+                <ul class="my-0 py-0">
+                    <li>Tegal</li>
+                    <li>Lampung</li>
+                    <li>Palu</li>
+                    <li>Palembang</li>
+                    <li>Subang</li>
+                    <li>Bontang</li>
+                    <li>Brebes</li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-2 my-0 py-0">
+                <ul class="my-0 py-0">
+                    <li>Banyuwangi</li>
+                    <li>Pasuruan</li>
+                    <li>Lumajang</li>
+                    <li>Jombang</li>
+                    <li>Sidoarjo</li>
+                    <li>Malang</li>
+                    <li>Probolinggo</li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-2 my-0 py-0">
+                <ul class="my-0 py-0">
+                    <li>Gilimanuk</li>
+                    <li>Padang</li>
+                    <li>Wonosobo</li>
+                    <li>Magelang</li>
+                    <li>Solo</li>
+                    <li>Manado</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid text-center section-nasabah">
+        <div class="p-5" style="background-color: rgba(0, 0, 0, 0.3);">
+            <h3 class="fw-bold display-5 text-center my-5 text-white">Nasabah FOI</h3>
+            <div class="row align-items-center justify-content-evenly mb-4">
+                <div class="col-12 col-md-2">
+                    <h3 class="fw-bold display-6 text-center mt-3 text-white">40,422</h3>
+                    <p class="text-white">Anak-Anak</p>
+                </div>
+                <div class="col-12 col-md-2">
+                    <h3 class="fw-bold display-6 text-center mt-3 text-white">6,066</h3>
+                    <p  class="text-white">Balita</p>
+                </div>
+                <div class="col-12 col-md-2">
+                    <h3 class="fw-bold display-6 text-center mt-3 text-white">150</h3>
+                    <p  class="text-white">Anak dengan HIV & AIDS</p>
+                </div>
+                <div class="col-12 col-md-2">
+                    <h3 class="fw-bold display-6 text-center mt-3 text-white">64,209</h3>
+                    <p  class="text-white">Lansia & Pekerja Informal</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5 pt-5">
+        <div class="row justify-content-between">
+            <div class="col-12 col-md-3">
+                <h3 class="fw-bold">Dewan Pembina</h3>
+                <p><strong>Ketua</strong><br>M. Hendro Utomo</p>
+                <p><strong>Anggota</strong><br>Dra. Lenny Nuhayanti Rosalin, M.Sc<br>Drs. U. Saefudin Noer, M.Si<br>Riza
+                    Primadi<br>Prof. Dr. Arif Satria, S.P., M.Si</p>
+            </div>
+            <div class="col-12 col-md-3">
+                <h3 class="fw-bold">Dewan Pakar</h3>
+                <p><strong>Ketua</strong><br>Prof. Dr. Ir. Ahmad Sulaeman, MS, PhD</p>
+                <p><strong>Anggota</strong><br>Dr. Hanafi Guciano<br>Prof. Dr. Ir. Eni Harmayani, M.Sc<br>Prof. Dr.-Ing.
+                    Ir.
+                    Kalamullah Ramli, M. Eng<br>Dr. Drs. Semiarto Aji Purwanto, M. Si<br>Dr. dr. Emy Huriyati, M.
+                    Kes<br>Dr.
+                    dr. Retno Asti Werdhani, M.Epid<br>Dr. Ir. Lestari Rahayu Waluyati MP<br>Dr. Meti Ekayani, S.Hut,
+                    M.Sc,
+                    IPM<br>Dr. Risatianti Kolopaking M.Si., Psikolog<br>Dr. Hendrajit<br>Dr. Ira Paramastri, M.
+                    Si<br>Ir.
+                    Ronnie Susman Natawidjaja, M.Sc., Ph.D<br>Mutiara TPL Kusuma, Ph.D<br>Dr. Ir. Suwardi,
+                    M.Agr<br>Prof.
+                    Ir. Sigit Supadmo Arif, M.Eng., Ph.D.</p>
+            </div>
+            <div class="col-12 col-md-3">
+                <h3 class="fw-bold">Pengurus Yayasan</h3>
+                <p><strong>Ketua Dewan Pengawas</strong><br>Adnan Pandu Praja, S.H, Sp. N, LLM</p>
+                <p><strong>Ketua Yayasan</strong><br>Wida Septarina</p>
+                <p><strong>Sekretaris Umum</strong><br>Kholid Novianto</p>
+                <p><strong>Sekretaris II</strong><br>Pipit Apriani</p>
+                <p><strong>Bendahara I</strong><br>Rina Efrizal</p>
+                <p><strong>Bendahara II</strong><br>Rizvi Permata Putri</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid pt-2" style="background-color: #F1C550;">
+        <div class="row ps-5 pe-5 row-cols-1 row-cols-sm-2 row-cols-md-5 pt-4">
+            <div class="col mb-3">
+                <img class="ms-2" src="assets/img/logo.png" alt="logo foodbank of indonesia">
+                <p class="ms-md-3 my-md-3 text-body-secondary">Our vision is to provide convenience and help increase
+                    your sales
+                    business.</p>
+                <div>
+                    <a href="https://www.instagram.com/foodbankid"><img src="assets/img/Facebook.png"
+                            alt="facebook"></a>
+                    <a href="https://www.facebook.com/foodbankindonesia"><img src="assets/img/Instagram.png"
+                            alt="Instagram"></a>
+                    <a href="https://twitter.com/foodbankid"><img src="assets/img/Twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+
+            <div class="col mb-3"></div>
+
+            <div class="col mb-3">
+                <h4>What Are We</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="./about.html" class="nav-link p-0 text-body-secondary">About
+                            FOI</a></li>
+                    <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 text-body-secondary">Climate
+                            Change</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="./partner.html"
+                            class="nav-link p-0 text-body-secondary">Partners</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="./report.html" class="nav-link p-0 text-body-secondary">Annual
+                            Report</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 text-body-secondary">Award</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="./career.html"
+                            class="nav-link p-0 text-body-secondary">Career</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="./contact.html"
+                            class="nav-link p-0 text-body-secondary">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col mb-3">
+                <h4>What We Do</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="./program.html"
+                            class="nav-link p-0 text-body-secondary">Program</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="./campaign.html"
+                            class="nav-link p-0 text-body-secondary">Campaign</a></li>
+                    <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 text-body-secondary">Study</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col mb-3">
+                <h4>Moving Together</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="./index.html#join-us"
+                            class="nav-link p-0 text-body-secondary">Voulenteer</a></li>
+                    <li class="nav-item mb-2"><a href="./donation.html" class="nav-link p-0 text-body-secondary">Natura
+                            Donation</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="./index.html#join-us"
+                            class="nav-link p-0 text-body-secondary">Help
+                            Childern and the
+                            Elderly</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="border-white border-top" style="display: flex; justify-content: space-between"> </div>
+
+        <div class="container-fluid px-5 pt-3">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <p class="copyright nav-link p-0 text-body-secondary">© 2024 Foodbank of Indonesia</p>
+                </div>
+                <div class="col-md-6 col-sm-12 text-xl-end">
+                    <div class="row">
+                        <div class="col-xl-9 col-md-6 col-sm-6">
+                            <a href="./index.html" class="nav-link p-0 text-body-secondary">Privacy & Policy</a>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-sm-6">
+                            <a href="./index.html" class="nav-link p-0 text-body-secondary">Terms & Conditions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
