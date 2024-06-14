@@ -83,6 +83,12 @@ body {
     background-position: center;
 }
 
+.rek {
+    transform: scale(0.4);
+    margin-top: -8rem;
+    margin-bottom: -8rem;
+}
+
 .card-campaign {
     border: 0.4rem solid #C23D2A;
     background-color: #FFEAE9;
