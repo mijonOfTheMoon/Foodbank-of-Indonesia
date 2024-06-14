@@ -49,6 +49,30 @@ body {
     background-color: #F1C550 !important;
 }
 
+.program-card {
+    border: 0.125rem solid #e0e0e0;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.program-card img {
+    height: 20rem;
+    object-fit: cover;
+}
+
+.program-card .card-body {
+    padding: 2.5rem;
+}
+
+.program-card h5 {
+    font-weight: bold;
+}
+
+.program-card p {
+    margin: 0;
+}
+
 .dropdown-item::selection {
     background-color: #F1C550 !important;
 }
