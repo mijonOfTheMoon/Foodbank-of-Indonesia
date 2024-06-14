@@ -19,42 +19,83 @@
 <body>
     <nav class="navbar navbar-expand-lg" style="background-color: #F1C550">
         <div class="container-fluid">
-            <a class="navbar-brand ms-4 ms-sm-4 ms-md-4 ms-lg-4 ms-xl-4 ms-xxl-4" href="#">
+            <a class="navbar-brand ms-4" href="#">
                 <img src="assets/img/logo.png" alt="Bootstrap" />
             </a>
 
-            <form class="search-sm d-block d-md-none me-4 me-sm-4 me-md-4 me-lg-4 me-xl-4 me-xxl-4">
+            <form class="search-sm d-block d-md-none me-4">
                 <img class="search-icon" src="assets/img/search.png" alt="">
                 <input class="search-sm-input" type="search" placeholder="Search">
             </form>
 
-            <div class="navbar-nav">
-                <div class="navbar-collapse ms-auto me-auto ms-sm-auto me-sm-auto ms-md-auto me-md-auto"
-                    id="navbarSupportedContent">
+            <div class="navigation">
+                <div class="navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <a class="nav-link navbarlink active d-none d-md-block" aria-current="page" href="#">Home</a>
-                    <div class="d-flex d-none d-md-block" style="height: 2.25rem">
-                        <div class="vr"></div>
+                    <div class="vr" style="height: 2.25rem"></div>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link navbarlink" href="#" id="navbarDropdown2" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Who Are We</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <li><a class="dropdown-item" href="#">About FOI</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Climate Change</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Partners</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Annual Report</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Career</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                        </ul>
                     </div>
-                    <a class="nav-link navbarlink ms-2" href="#">Who Are We</a>
-                    <div class="d-flex" style="height: 2.25rem">
-                        <div class="vr"></div>
+                    <div class="vr" style="height: 2.25rem"></div>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link navbarlink" href="#" id="navbarDropdown3" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">What We Do</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            <li><a class="dropdown-item" href="#">Program</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Campaign</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Study</a></li>
+                        </ul>
                     </div>
-                    <a class="nav-link navbarlink" href="#">What We Do</a>
-                    <div class="d-flex" style="height: 2.25rem">
-                        <div class="vr"></div>
-                    </div>
+                    <div class="vr" style="height: 2.25rem"></div>
                     <a class="nav-link navbarlink" href="#">News</a>
-                    <div class="d-flex" style="height: 2.25rem">
-                        <div class="vr"></div>
+                    <div class="vr" style="height: 2.25rem"></div>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link navbarlink" href="#" id="navbarDropdown5" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Moving Together</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                            <li><a class="dropdown-item" href="#">Voulenteer</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Natura Donation</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Help People</a></li>
+                        </ul>
                     </div>
-                    <a class="nav-link navbarlink" href="#">Moving Together</a>
-                    <div class="d-flex" style="height: 2.25rem">
-                        <div class="vr"></div>
-                    </div>
-                    <a class="nav-link navbarlink me-2" href="#">Donation</a>
-                    <div class="d-flex d-none d-md-block" style="height: 2.25rem">
-                        <div class="vr"></div>
-                    </div>
+                    <div class="vr" style="height: 2.25rem"></div>
+                    <a class="nav-link navbarlink" href="#">Donation</a>
+                    <div class="vr" style="height: 2.25rem"></div>
                     <div class="collapse collapse-horizontal" id="collapseWidthExample">
                         <form role="search">
                             <input class="form-control" type="search" placeholder="Search" aria-label="Search">
@@ -66,14 +107,12 @@
                         aria-controls="collapseWidthExample">
                         <img src="assets/img/search.png" alt="go search" style="max-width: 1.25rem;">
                     </button>
-
                 </div>
             </div>
-
         </div>
     </nav>
 
-    <section class="container-fluid my-md-3">
+    <section class="container-fluid mt-4 my-md-3">
         <div class="p-4 p-md-5 rounded-3">
             <div class="row">
                 <div class="col-md-6 mb-4 mb-md-0 d-flex flex-column justify-content-center">
@@ -330,7 +369,8 @@
                         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                             data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                incididunt ut
                                 labore et dolore magna aliqua.
                             </div>
                         </div>
@@ -345,7 +385,8 @@
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                incididunt ut
                                 labore et dolore magna aliqua.
                             </div>
                         </div>
@@ -360,7 +401,8 @@
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                incididunt ut
                                 labore et dolore magna aliqua.
                             </div>
                         </div>

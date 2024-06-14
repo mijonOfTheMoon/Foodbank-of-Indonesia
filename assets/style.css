@@ -8,14 +8,36 @@ body {
 }
 
 .vr {
-    margin: 0 0.5rem;
+    margin: 0 1.5rem;
 }
 
 .navbarlink {
-    color: #486284;
+    color: #6b6d70 !important;
     font-size: 0.95rem;
 }
 
+.active {
+    color: black !important;
+}
+
+.dropdown-menu {
+    background-color: #ffeec6 !important;
+    margin-top: 1.5rem !important;
+    width: 11rem !important;
+    display: absolute !important;
+    left: auto !important;
+    right: auto !important;
+    width: 0rem !important;
+}
+
+.dropdown-item:focus {
+    background-color: #F1C550 !important;
+}
+
+.dropdown {
+    display: flex !important;
+    justify-content: center !important;
+}
 
 .navbar-collapse {
     display: flex;
@@ -140,6 +162,8 @@ body {
     font-weight: 500;
 }
 
+
+
 @media (max-width: 768px) {
 
     .container-fluid {
@@ -151,7 +175,7 @@ body {
         padding: 0 !important;
     }
 
-    .navbar-nav {
+    .navigation {
         background-color: #692222;
         width: 100%;
     }
@@ -169,7 +193,7 @@ body {
 
     .vr {
         color: white;
-        margin: 0 0.8rem;
+        margin: 0 0.7rem;
     }
 
     .navbar-brand {
@@ -192,6 +216,10 @@ body {
         font-size: 85% !important;
         padding: 0;
         margin: 0 0 0.25rem 0;
+    }
+
+    .dropdown-menu {
+        left: 0 !important;
     }
 
     .programs img {
