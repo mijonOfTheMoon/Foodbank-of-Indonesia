@@ -179,8 +179,9 @@ body {
 }
 
 .form-control::placeholder {
-    color: black !important;
+    color: #486284 !important;
     font-weight: 500;
+    font-size: small;
 }
 
 
