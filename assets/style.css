@@ -157,6 +157,12 @@ body {
     height: 0.4rem;
 }
 
+.redline {
+    background-color: #8C2E2E;
+    width: 100rem;
+    height: 4rem;
+}
+
 .search-sm-input {
     font-size: small;
     color: black;
@@ -298,6 +304,11 @@ body {
 
     .whline {
         width: 10rem;
+    }
+
+    .redline {
+        width: 20rem;
+        height: 3rem;
     }
 
     .container-fluid {
