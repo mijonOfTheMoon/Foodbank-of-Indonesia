@@ -100,6 +100,13 @@ body {
     object-fit: cover;
 }
 
+.custom-btn-report {
+    background-color: #38451F !important;
+    color: white !important;
+    border-radius: 8px !important;
+    padding: 10px 20px !important;
+}
+
 .section-nasabah {
     background-image: url(./img/nasabah.png);
     background-size: cover;
