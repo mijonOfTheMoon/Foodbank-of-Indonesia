@@ -245,9 +245,13 @@ body {
 
     .navbarlink {
         color: white !important;
-        font-weight: normal;
+        font-weight: normal !important;
         font-size: 0.625rem !important;
-        text-align: center;
+        text-align: center !important;
+    }
+
+    .navbarlink:focus {
+        filter: brightness(1.2);
     }
 
     .vr {
