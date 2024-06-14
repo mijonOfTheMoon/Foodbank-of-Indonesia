@@ -13,7 +13,7 @@ body {
 
 .navbarlink {
     color: #6b6d70 !important;
-    font-size: 0.95rem;
+    font-size: 1.1rem !important;
 }
 
 .active {
@@ -22,7 +22,7 @@ body {
 
 .dropdown-menu {
     background-color: #ffeec6 !important;
-    margin-top: 1.5rem !important;
+    margin-top: 1rem !important;
     width: 11rem !important;
     display: absolute !important;
     left: auto !important;
@@ -31,6 +31,14 @@ body {
 }
 
 .dropdown-item:focus {
+    background-color: #F1C550 !important;
+}
+
+.dropdown-item::selection {
+    background-color: #F1C550 !important;
+}
+
+.dropdown-item:active {
     background-color: #F1C550 !important;
 }
 
@@ -187,13 +195,13 @@ body {
     .navbarlink {
         color: white !important;
         font-weight: normal;
-        font-size: 0.6rem !important;
+        font-size: 0.625rem !important;
         text-align: center;
     }
 
     .vr {
         color: white;
-        margin: 0 0.7rem;
+        margin: 0 0.65rem;
     }
 
     .navbar-brand {
@@ -229,5 +237,9 @@ body {
     .hero-image {
         margin-top: 2rem;
         border-radius: 4rem 4rem 1rem 1rem !important;
+    }
+    .moving-dropdown {
+        right: 0 !important;
+        left: auto !important;
     }
 }
